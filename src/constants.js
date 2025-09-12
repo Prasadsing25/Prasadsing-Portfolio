@@ -39,7 +39,7 @@ import sandipLogo from "./assets/education_logo/sandip.jpg";
 import simonsaygameLogo from "./assets/work_logo/SimonSayGame.png";
 import stopwatchLogo from "./assets/work_logo/stopwatch.png";
 import wanderlustLogo from "./assets/work_logo/Wanderlust.png";
-import weatherappLogo from "./assets/work_logo/Weatherapp.png";
+import weatherappLogo from "./assets/work_logo/WeatherApp.png";
 
 
 export const SkillsInfo = [
