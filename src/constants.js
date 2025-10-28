@@ -40,6 +40,8 @@ import simonsaygameLogo from "./assets/work_logo/SimonSayGame.png";
 import stopwatchLogo from "./assets/work_logo/stopwatch.png";
 import wanderlustLogo from "./assets/work_logo/Wanderlust.png";
 import weatherappLogo from "./assets/work_logo/WeatherApp.png";
+import TaskReminder from "./assets/work_logo/TaskReminder.png";
+
 
 
 export const SkillsInfo = [
@@ -210,6 +212,16 @@ export const Projects = [
            "A responsive web application that fetches real-time weather data from the OpenWeatherMap API. The app allows users to search for any city worldwide and displays key details such as temperature, humidity, wind speed, and weather conditions with dynamic icons.",
         img: weatherappLogo,
         tags: ["HTML", "CSS", "JAVAScript", "React JS", "API"],
+        github: "https://github.com/Prasadsing25/Wanderlust-project",
+        webapp: "https://wanderlust-project-296s.onrender.com"
+    },
+    {
+        id: 4,
+        title: "Task Reminder Extension",
+        description: 
+           "A simple and stylish Chrome extension built with HTML, CSS, and JavaScript that lets users add, manage, and get notified about tasks—right from their browser. Stay organized, never miss a task!",
+        img: TaskReminder,
+        tags: ["HTML", "CSS", "JAVAScript"],
         github: "https://github.com/Prasadsing25/Wanderlust-project",
         webapp: "https://wanderlust-project-296s.onrender.com"
     },
