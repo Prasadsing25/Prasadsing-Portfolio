@@ -1,12 +1,35 @@
-# React + Vite
+🧑‍💻 Portfolio Website
+This is my personal Portfolio Website built to showcase my projects, skills, and achievements as a developer. It highlights my work in web development and cloud technology, as well as provides a professional space to connect with me.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 Live Demo
+https://prasadsing-portfolio.vercel.app/
 
-Currently, two official plugins are available:
+📋 Features
+🏠 Home Section – A clean and modern landing section with a short introduction.
+💼 Projects Section – Showcases my real-world projects with live demo and GitHub links.
+⚙️ Skills Section – Displays my technical skills in frontend, backend, and cloud technologies.
+📄 About Section – A short overview of who I am, my background, and what I do.
+📞 Contact Section – Includes links to my social profiles and a working contact form.
+🌗 Responsive Design – Fully responsive for all screen sizes (mobile, tablet, desktop).
+🎨 Modern UI/UX – Built with smooth animations and minimalistic styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
+Frontend:
+HTML5
+CSS3 / Tailwind CSS
+JavaScript (ES6+) / React.js
+Other Tools & Libraries:
+Framer Motion (for animations)
+EmailJS (for contact form integration)
+Git & GitHub (for version control)
+Hosting / Deployment:
+Vercel
 
-## Expanding the ESLint configuration
+📫 Contact
+If you’d like to get in touch:
+📧 Email: ppr2114@gmail.com
+💼 LinkedIn: https://www.linkedin.com/in/prasadsing-solanki
+🐙 GitHub: https://github.com/Prasadsing25
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🏷️ License
+This project is open source and available under the MIT License
