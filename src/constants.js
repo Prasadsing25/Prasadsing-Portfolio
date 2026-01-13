@@ -36,13 +36,11 @@ import sandipLogo from "./assets/education_logo/sandip.jpg";
 
 
 //Projects Section Logo's
-import simonsaygameLogo from "./assets/work_logo/SimonSayGame.png";
-import stopwatchLogo from "./assets/work_logo/stopwatch.png";
 import wanderlustLogo from "./assets/work_logo/Wanderlust.png";
+import tradeflowLogo from "./assets/work_logo/tradeflowLogo.png";
+import myportfolioLogo from "./assets/work_logo/myportfolio.jpg";
 import weatherappLogo from "./assets/work_logo/WeatherApp.png";
 import TaskReminder from "./assets/work_logo/TaskReminder.png";
-
-
 
 export const SkillsInfo = [
     {
@@ -187,23 +185,23 @@ export const Projects = [
     },
     {
         id: 1,
-        title: "SimonSayGame",
+        title: "TradeFlow - A Stock Trading App",
         description: 
-           "A fun, interactive memory game challenges players to remember and repeat increasingly complex sequences of colors. With each level, the sequence grows longer, testing memory and focus while providing an engaging user experience.",
-        img: simonsaygameLogo,
-        tags: ["HTML", "CSS", "JAVAScript", "API"],
-        github: "https://github.com/Prasadsing25/Wanderlust-project",
-        webapp: "https://wanderlust-project-296s.onrender.com"
+           "This project presents TradeFlow, an online stock trading simulation platform designed to provide users with a risk-free environment to learn and practice trading. The platform allows users to register, manage portfolios, monitor stock prices, create watchlists, and execute simulated buy/sell transactions.",
+        img: tradeflowLogo,
+        tags: ["React JS", "JAVAScript", "Bootstrap", "REST API", "Node.js", "Express.js", "MongoDB", "JEST"],
+        github: "https://github.com/Prasadsing25/Tradeflow-",
+        webapp: "https://tradeflow-frontend.onrender.com"
     },
     {
         id: 2,
-        title: "StopWatch",
+        title: "My Portfolio",
         description: 
-           "A simple and efficient stopwatch application, provides essential features such as start, pause, reset, and lap recording, making it useful for tracking time in various activities",
-        img: stopwatchLogo,
-        tags: ["HTML", "CSS", "JAVAScript", "Node Js", "Express", "EJS"],
-        github: "https://github.com/Prasadsing25/Wanderlust-project",
-        webapp: "https://wanderlust-project-296s.onrender.com"
+           "My portfolio site is a modern, responsive web application built to showcase my skills, projects, and achievements as a full‑stack developer. Designed with a clean and professional UI, it highlights both technical expertise and creative design sense, giving visitors an engaging experience.",
+        img: myportfolioLogo,
+        tags: ["JAVAScript", "Tailwind CSS", "React Js", "Email Js"],
+        github: "https://github.com/Prasadsing25/Prasadsing-Portfolio",
+        webapp: "https://prasadsing-portfolio.vercel.app/"
     },
     {
         id: 3,
@@ -222,7 +220,7 @@ export const Projects = [
            "A simple and stylish Chrome extension built with HTML, CSS, and JavaScript that lets users add, manage, and get notified about tasks—right from their browser. Stay organized, never miss a task!",
         img: TaskReminder,
         tags: ["HTML", "CSS", "JAVAScript"],
-        github: "https://github.com/Prasadsing25/Wanderlust-project",
+        github: "https://github.com/Prasadsing25/Task-Reminder-Extension",
         webapp: "https://wanderlust-project-296s.onrender.com"
     },
 ];
