@@ -99,7 +99,8 @@ export const Certificates = [
             "business creation",
             "Business Model development",
             "Entrepreneurship Essentials"
-        ]
+        ],
+        pdf: "https://drive.google.com/file/d/1giOwwtCkiLTwd3Ynpzc8NlI3ka9ZPsn0/view?usp=drive_link"
     },
     {
         id: 1,
@@ -114,7 +115,8 @@ export const Certificates = [
             "NODE JS",
             "EXPRESS",
             "MongoDB"
-        ]
+        ],
+        pdf: "https://drive.google.com/file/d/1J-cwBcQ9LjzkRLf1co3H8jluL8qB-g07/view?usp=drive_link"
     },
     {
         id: 2,
@@ -124,7 +126,8 @@ export const Certificates = [
         desc: "This course introduces core Python programming concepts, including data types, control structures, functions.",
         skills: [
             "Python Programming"
-        ]
+        ],
+        pdf: "https://drive.google.com/file/d/18txEjBEkPAO80vFrkv0fu4MKZJOqw6Up/view?usp=drive_link"
     },
     {
         id: 3,
@@ -136,7 +139,20 @@ export const Certificates = [
             "Linux",
             "Google Colab",
             "Cloud Computing"
-        ]
+        ],
+        pdf: "https://drive.google.com/file/d/1gtxYZM4zUxqSALMYneDQ-e6V4u6ZouKY/view?usp=drive_link"
+    },
+    {
+        id: 4,
+        img: sololearnLogo,
+        name: "LLM",
+        date: "DEC 2025",
+        desc: "This course provided certificate of completion about Introduction to Large Language Model.",
+        skills: [
+            "LLM",
+            "Google Copilot",
+        ],
+        pdf: "https://drive.google.com/file/d/1gtxYZM4zUxqSALMYneDQ-e6V4u6ZouKY/view?usp=drive_link"
     }
 ];
 
