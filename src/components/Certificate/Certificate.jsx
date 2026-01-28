@@ -2,6 +2,9 @@
 import { Certificates } from "../../constants.js";
 
 const Certificate = () => {
+
+
+
     return (
         <section
             id="certificate"
@@ -76,18 +79,19 @@ const Certificate = () => {
                             </div>
 
                             {/* Certificate btn */}
-                            {/* <a
-                                href="https://drive.google.com/file/d/1n7ugOylHvi2lKHTnq_9XwcywT0ZFgC5u/view?usp=drive_link"
+                            <a
+                                href={certificate.pdf}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transitionn duration-300 transform hover:scale-105"
+                                className="inline-block text-white py-3 px-4 rounded-full mt-5 text-md font-bold transitionn duration-300 transform hover:scale-105"
                                 style={{
-                                    background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-                                    boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec '
+                                    background: 'linear-gradient(90deg, #8245ec, #453a50)',
+                                    boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec'
+                                    // boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec'
                                 }}
                             >
                                 View Certificate
-                            </a> */}
+                            </a>
                         </div>
                     </div>
                 ))}
