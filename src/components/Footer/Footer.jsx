@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
 
@@ -35,12 +35,14 @@ const Footer = () => {
                 </nav>
 
                 {/* Social media icons */}
-                <div className="flex flex-wrap justify-center space-x-4 mt-6">
+                <div className="flex flex-wrap justify-center space-x-4 mt-6 gap-3">
                     {[
-                        {icon: <FaLinkedin/>, link: "https://www.linkedin.com/in/prasadsing-solanki-0045ph275"},
-                        {icon: <FaFacebook/>, link: ""},
-                        {icon: <FaInstagram/>, link: "https://www.instagram.com/prasad_rajput1/"},
-                        {icon: <FaTwitter/>, link: ""},
+                        {icon: <FaLinkedin/>, link: "https://www.linkedin.com/in/prasadsing-solanki"},
+                        {icon: <FaFacebook/>, link: "https://www.facebook.com/prasad.solanki.50"},
+                        {icon: <FaInstagram/>, link: "https://www.instagram.com/prasad_rajput1111/"},
+                        {icon: <FaTwitter/>, link: "https://x.com/Prasadsing111?t=RZ0Zflnj7GAs2QPA6n6V3g&s=09"},
+                        {icon: <FaYoutube/>, link: "https://www.youtube.com/@prasadrajput1"},
+                        {icon: <FaGithub/>, link: "https://github.com/Prasadsing25"}
                     ].map((item, index) => (
                         <a
                         key={index}
