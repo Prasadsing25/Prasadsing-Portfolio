@@ -111,7 +111,7 @@ const Navbar = () => {
                                 className="text-gray-300 hover:text-white">
                                 <FaGithub size={24} />
                             </a>
-                            <a href="www.linkedin.com/in/prasadsing-solanki-0045ph275"
+                            <a href="https://www.linkedin.com/in/prasadsing-solanki"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-white">

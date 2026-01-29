@@ -41,6 +41,7 @@ import tradeflowLogo from "./assets/work_logo/tradeflowLogo.png";
 import myportfolioLogo from "./assets/work_logo/myportfolio.jpg";
 import weatherappLogo from "./assets/work_logo/WeatherApp.png";
 import TaskReminder from "./assets/work_logo/TaskReminder.png";
+import taskManagerLogo from "./assets/work_logo/TaskManager.jpg";
 
 export const SkillsInfo = [
     {
@@ -201,7 +202,7 @@ export const Projects = [
     },
     {
         id: 1,
-        title: "TradeFlow - A Stock Trading App",
+        title: "TradeFlow",
         description: 
            "This project presents TradeFlow, an online stock trading simulation platform designed to provide users with a risk-free environment to learn and practice trading. The platform allows users to register, manage portfolios, monitor stock prices, create watchlists, and execute simulated buy/sell transactions.",
         img: tradeflowLogo,
@@ -231,12 +232,22 @@ export const Projects = [
     },
     {
         id: 4,
+        title: "Task Manager App",
+        description: 
+           "The Task Manager App is a responsive and user-friendly web application designed to help users efficiently organize, track, and manage their daily tasks with a clean interface and seamless functionality.",
+        img: taskManagerLogo,
+        tags: ["React", "CSS", "JAVAScript"],
+        github: "https://github.com/Prasadsing25/Task-Manager-App",
+        webapp: "https://task-manager-app-neon-five.vercel.app/"
+    },
+    {
+        id: 5,
         title: "Task Reminder Extension",
         description: 
            "A simple and stylish Chrome extension built with HTML, CSS, and JavaScript that lets users add, manage, and get notified about tasks—right from their browser. Stay organized, never miss a task!",
         img: TaskReminder,
         tags: ["HTML", "CSS", "JAVAScript"],
-        github: "https://github.com/Prasadsing25/Task-Reminder-Extension",
-        webapp: "https://wanderlust-project-296s.onrender.com"
+        github: "",
+        webapp: ""
     },
 ];

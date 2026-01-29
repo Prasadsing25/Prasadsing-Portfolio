@@ -4,11 +4,10 @@ import { Certificates } from "../../constants.js";
 const Certificate = () => {
 
 
-
     return (
         <section
             id="certificate"
-            className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom2">
+            className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[7vw] font-sans bg-skills-gradient clip-path-custom2">
 
             {/* Section title */}
             <div className="text-center mb-16">
@@ -30,7 +29,7 @@ const Certificate = () => {
                 {Certificates.map((certificate, index) => (
                     <div
                         key={certificate.id}
-                        className={`flex flex-col sm:flex-row items-center mb-16 ${index % 2 === 0 ? "sm:justify-end" : "sm:justify-start"
+                        className={`flex flex-col sm:flex-row items-center mb-1 ${index % 2 === 0 ? "sm:justify-end" : "sm:justify-start"
                             }`}>
 
                         {/* Timeline Circle */}
@@ -42,7 +41,7 @@ const Certificate = () => {
                         </div>
 
                         {/* Content Section  */}
-                        <div className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] 
+                        <div className={`w-full sm:max-w-md p-1 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] 
                             ${index % 2 === 0 ? "sm:ml-0 " : "sm:mr-0"} sm:ml-44 sm:mr-44 ml-8 transform transition-transform duration-300 hover:scale-105 `}>
 
                             {/*  Flex container for image and text */}
@@ -65,7 +64,7 @@ const Certificate = () => {
                             </div>
 
                             <p className="mt-4 text-gray-400 ">{certificate.desc}</p>
-                            <div className="mt-4">
+                            <div className="mt-2">
                                 <h5 className="font-medium text-white">Skills</h5>
                                 <ul className="flex flex-wrap mt-2">
                                     {certificate.skills.map((skill, index) => (
