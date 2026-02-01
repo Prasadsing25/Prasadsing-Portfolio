@@ -15,7 +15,7 @@ const Contact = () => {
             "service_dvdjpqt", //EmailJs service ID
             "template_0o81fw9", //EmailJs template ID
             form.current, 
-            "w3a7v4p03U7A0kGLl" //EmailJs public key
+            "OZg9SqAwkOHyBlOKy" //EmailJs public key
         )
             .then(
                 () => {
