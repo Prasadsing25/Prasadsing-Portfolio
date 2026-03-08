@@ -20,29 +20,6 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import linuxLogo from "./assets/tech_logo/linux.png"
 import jsonLogo from "./assets/tech_logo/json.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
-
-
-//Certificate Section Logo's
-import nptelLogo from "./assets/cert_logo/nptel.png";
-import sololearnLogo from "./assets/cert_logo/sololearn.png";
-import udemyLogo from "./assets/cert_logo/udemy.png";
-import ybiLogo from "./assets/cert_logo/ybi.png";
-
-
-//Education Section Logo's
-import sscLogo from "./assets/education_logo/ssc.png";
-import hscLogo from "./assets/education_logo/hsc.png";
-import sandipLogo from "./assets/education_logo/sandip.jpg";
-
-
-//Projects Section Logo's
-import wanderlustLogo from "./assets/work_logo/Wanderlust.png";
-import tradeflowLogo from "./assets/work_logo/tradeflowLogo.png";
-import myportfolioLogo from "./assets/work_logo/myportfolio.jpg";
-import weatherappLogo from "./assets/work_logo/WeatherApp.png";
-import TaskReminder from "./assets/work_logo/TaskReminder.png";
-import taskManagerLogo from "./assets/work_logo/TaskManager.jpg";
-
 export const SkillsInfo = [
     {
         title: 'Frontend',
@@ -89,26 +66,46 @@ export const SkillsInfo = [
 ];
 
 
+
+//Certificate Section Logo's
+import nptelLogo from "./assets/cert_logo/nptel.png";
+import sololearnLogo from "./assets/cert_logo/sololearn.png";
+import udemyLogo from "./assets/cert_logo/udemy.png";
+import ybiLogo from "./assets/cert_logo/ybi.png";
+import hackerrank from "./assets/cert_logo/hackerrank.png";
 export const Certificates = [
     {
         id: 0,
         img: nptelLogo,
         name: "Entrepreneurship Essentials",
         date: "May 2025",
-        desc: "This course introduces the fundamental concepts of entrepreneurship and business creation",
+        desc: "Learn fundamental concepts of entrepreneurship and business creation",
         skills: [
-            "business creation",
-            "Business Model development",
+            "Digital Marketing",
+            "Buisness Developement",
             "Entrepreneurship Essentials"
         ],
         pdf: "https://drive.google.com/file/d/1giOwwtCkiLTwd3Ynpzc8NlI3ka9ZPsn0/view?usp=drive_link"
     },
     {
         id: 1,
+        img: hackerrank,
+        name: "Frontend Developer (React)",
+        date: "Jan 2026",
+        desc: "HackerRank profile will now showcase Frontend Developer (React) as a verified asset.",
+        skills: [
+            "React",
+            "Javascript",
+            "CSS"
+        ],
+        pdf: "https://www.hackerrank.com/certificates/iframe/f5cad1045366"
+    },
+    {
+        id: 2,
         img: sololearnLogo,
         name: "Web Developement",
         date: "August 2025",
-        desc: "This course provides a strong foundation in front-end and back-end web technologies.",
+        desc: "Learned front-end and back-end web technologies.",
         skills: [
             "HTML",
             "CSS",
@@ -120,18 +117,18 @@ export const Certificates = [
         pdf: "https://drive.google.com/file/d/1J-cwBcQ9LjzkRLf1co3H8jluL8qB-g07/view?usp=drive_link"
     },
     {
-        id: 2,
+        id: 3,
         img: udemyLogo,
         name: "Python Course",
         date: "FEB 2024",
-        desc: "This course introduces core Python programming concepts, including data types, control structures, functions.",
+        desc: "Python programming concepts, including data types, control structures, functions.",
         skills: [
-            "Python Programming"
+            "Python"
         ],
         pdf: "https://drive.google.com/file/d/18txEjBEkPAO80vFrkv0fu4MKZJOqw6Up/view?usp=drive_link"
     },
     {
-        id: 3,
+        id: 4,
         img: ybiLogo,
         name: "Cloud Computing and Big Data",
         date: "JUNE 2023",
@@ -144,7 +141,7 @@ export const Certificates = [
         pdf: "https://drive.google.com/file/d/1gtxYZM4zUxqSALMYneDQ-e6V4u6ZouKY/view?usp=drive_link"
     },
     {
-        id: 4,
+        id: 5,
         img: sololearnLogo,
         name: "LLM",
         date: "DEC 2025",
@@ -152,12 +149,18 @@ export const Certificates = [
         skills: [
             "LLM",
             "Google Copilot",
+            "Artificial Intelligence"
         ],
         pdf: "https://drive.google.com/file/d/1gtxYZM4zUxqSALMYneDQ-e6V4u6ZouKY/view?usp=drive_link"
     }
 ];
 
 
+
+//Education Section Logo's
+import sscLogo from "./assets/education_logo/ssc.png";
+import hscLogo from "./assets/education_logo/hsc.png";
+import sandipLogo from "./assets/education_logo/sandip.jpg";
 export const education = [
     {
         id: 0,
@@ -189,6 +192,14 @@ export const education = [
 ];
 
 
+
+//Projects Section Logo's
+import wanderlustLogo from "./assets/work_logo/Wanderlust.png";
+import tradeflowLogo from "./assets/work_logo/tradeflowLogo.png";
+import myportfolioLogo from "./assets/work_logo/myportfolio.jpg";
+import weatherappLogo from "./assets/work_logo/WeatherApp.png";
+import TaskReminder from "./assets/work_logo/TaskReminder.png";
+import taskManagerLogo from "./assets/work_logo/TaskManager.jpg";
 export const Projects = [
     {
         id: 0,
