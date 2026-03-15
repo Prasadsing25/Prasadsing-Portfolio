@@ -79,11 +79,10 @@ export const Certificates = [
         img: nptelLogo,
         name: "Entrepreneurship Essentials",
         date: "May 2025",
-        desc: "Learn fundamental concepts of entrepreneurship and business creation",
+        desc: "Learn fundamental concepts of entrepreneurship.",
         skills: [
             "Digital Marketing",
-            "Buisness Developement",
-            "Entrepreneurship Essentials"
+            "Buisness Developement"
         ],
         pdf: "https://drive.google.com/file/d/1giOwwtCkiLTwd3Ynpzc8NlI3ka9ZPsn0/view?usp=drive_link"
     },
@@ -121,7 +120,7 @@ export const Certificates = [
         img: udemyLogo,
         name: "Python Course",
         date: "FEB 2024",
-        desc: "Python programming concepts, including data types, control structures, functions.",
+        desc: "Learned Python programming concepts",
         skills: [
             "Python"
         ],
@@ -132,7 +131,7 @@ export const Certificates = [
         img: ybiLogo,
         name: "Cloud Computing and Big Data",
         date: "JUNE 2023",
-        desc: "This course provided hands-on knowledge of cloud computing concepts, virtualization, and distributed storage.",
+        desc: "Get hands on experience of cloud computing concepts, virtualization.",
         skills: [
             "Linux",
             "Google Colab",
@@ -148,8 +147,8 @@ export const Certificates = [
         desc: "This course provided certificate of completion about Introduction to Large Language Model.",
         skills: [
             "LLM",
-            "Google Copilot",
-            "Artificial Intelligence"
+            "AI Tools",
+            "AI"
         ],
         pdf: "https://drive.google.com/file/d/1gtxYZM4zUxqSALMYneDQ-e6V4u6ZouKY/view?usp=drive_link"
     }

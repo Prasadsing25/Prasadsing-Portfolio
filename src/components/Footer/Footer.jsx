@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaGithub, FaCoffee } from "react-icons/fa";
 
 const Footer = () => {
 
@@ -24,6 +24,7 @@ const Footer = () => {
                         {name: "Certificate", id: "certificate"},
                         {name: "Projects", id: "project"},
                         {name: "Education", id: "education"},
+                        {name: "Contact", id: "contact"},
                     ].map((item, index) => (
                         <button
                         key={index}
@@ -42,7 +43,8 @@ const Footer = () => {
                         {icon: <FaInstagram/>, link: "https://www.instagram.com/prasad_rajput1111/"},
                         {icon: <FaTwitter/>, link: "https://x.com/Prasadsing111?t=RZ0Zflnj7GAs2QPA6n6V3g&s=09"},
                         {icon: <FaYoutube/>, link: "https://www.youtube.com/@prasadrajput1"},
-                        {icon: <FaGithub/>, link: "https://github.com/Prasadsing25"}
+                        {icon: <FaGithub/>, link: "https://github.com/Prasadsing25"},
+                        {icon: <FaCoffee/>, link: "https://buymeacoffee.com/prasadsingsolanki"}
                     ].map((item, index) => (
                         <a
                         key={index}

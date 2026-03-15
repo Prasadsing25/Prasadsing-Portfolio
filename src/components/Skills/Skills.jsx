@@ -40,7 +40,7 @@ const Skills = () => {
                                             src={skill.logo}
                                             alt={`${skill.name} logo`}
                                             className="w-6 h-6 sm:w-8 sm:h-8" />
-                                        <span className="text-xs sm:text-sm text-gray-300">
+                                        <span className="text-sm sm:text-sm text-gray-300">
                                             {skill.name}
                                         </span>
                                     </div>

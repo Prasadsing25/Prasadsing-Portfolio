@@ -7,7 +7,7 @@ const Certificate = () => {
     return (
         <section
             id="certificate"
-            className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[7vw] font-sans bg-skills-gradient clip-path-custom2">
+            className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[7vw] font-sans bg-skills-gradient clip-path-custom2 mb-16">
 
             {/* Section title */}
             <div className="text-center mb-16">
@@ -16,14 +16,14 @@ const Certificate = () => {
                 </h2>
                 <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
                 <p className="text-gray-400 mt-4 text-lg font-semibold">
-                    A Collection of my work credits that i have earn by learning new technology
+                    A Collection of my work credits that I have earn by learning new technology
                 </p>
             </div>
 
             {/* Certificates Timeline */}
-            <div className="relative">
+            <div className="relative mb-16">
                 {/* Vertical Line */}
-                <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
+                <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full "></div>
 
                 {/* Certificates Entries */}
                 {Certificates.map((certificate, index) => (
