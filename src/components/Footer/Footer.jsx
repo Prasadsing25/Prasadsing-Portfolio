@@ -59,7 +59,7 @@ const Footer = () => {
 
                 {/* copyright text */}
                 <p className="text-sm text-gray-400 mt-6">
-                    &copy; {new Date().getFullYear()} Prasadsing Solanki. All rights reserved.
+                    &copy; {new Date().getFullYear()} Prasadsing Solanki. All Rights Reserved.
                 </p>
             </div>
         </footer>

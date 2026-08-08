@@ -22,7 +22,7 @@ const About = () => {
                             I am a
                         </span> &nbsp;
                         <Typewriter
-                            words={["Full Stack Developer", "MERN Developer", "Mastering Cloud Technology", "Software Developer"]}
+                            words={["FullStack Developer", "Developer", "Linux Administrator", "SDE", "Software Engineer"]}
                             speed={500}
                             eraseSpeed={5}
                             typingDelay={500}
