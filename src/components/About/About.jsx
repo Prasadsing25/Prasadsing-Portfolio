@@ -11,7 +11,7 @@ const About = () => {
                 <div className="md:w-2/3 text-center md:text-left mt-8 md:mt-0">
                     {/* Greeting */}
                     <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight">
-                        Hi, I am
+                        Hi, I'm
                     </h1>
                     <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight">
                         Prasadsing Solanki
