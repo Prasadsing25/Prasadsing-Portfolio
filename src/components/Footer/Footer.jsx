@@ -1,21 +1,17 @@
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaGithub, FaCoffee } from "react-icons/fa";
-
 const Footer = () => {
-
     const handleScroll = (sectionId) => {
         const section = document.getElementById(sectionId);
         if (section) {
             section.scrollIntoView({behavior: "smooth"})
         }
     }
-
     return (
         <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
             <div className="container mx-auto text-center">
                 <h2 className="text-xl font-semibold text-purple-500">
                     Prasadsing Solanki
                 </h2>
-
                 {/* Navigation Links */}
                 <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
                     {[
@@ -34,7 +30,6 @@ const Footer = () => {
                         </button>
                     ))}
                 </nav>
-
                 {/* Social media icons */}
                 <div className="flex flex-wrap justify-center space-x-4 mt-6 gap-3">
                     {[
@@ -56,7 +51,6 @@ const Footer = () => {
                         </a>
                     ))}
                 </div>
-
                 {/* copyright text */}
                 <p className="text-sm text-gray-400 mt-6">
                     &copy; {new Date().getFullYear()} Prasadsing Solanki. All Rights Reserved.
@@ -65,5 +59,4 @@ const Footer = () => {
         </footer>
     );
 }
-
 export default Footer;

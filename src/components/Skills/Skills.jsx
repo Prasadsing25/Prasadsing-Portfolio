@@ -1,6 +1,5 @@
 import { SkillsInfo } from "../../constants.js";
 import Tilt from 'react-parallax-tilt';
-
 const Skills = () => {
     return (
         <section
@@ -12,7 +11,6 @@ const Skills = () => {
                 <div className="w-24 h-1 bg-[#8245ec] mx-auto mt-1"></div>
                 <p className="text-gray-400 mt-4 text-lg font-semibold">A Collection of my technical skills and expertise honed through various projects.</p>
             </div>
-
             {/* Skills Categories */}
             <div className="flex flex-wrap gap-1 lg:gap-3 py-8 justify-between">
                 {SkillsInfo.map((category) => (
@@ -21,7 +19,6 @@ const Skills = () => {
                         className="bg-gray-900 backdrop-blur-md px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border border-white 
                         shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]">
                         <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-5 text-center">{category.title}</h3>
-
                         {/* Skills Items = 3 per row on lg screen */}
                         <Tilt
                             key={category.title}
@@ -50,9 +47,7 @@ const Skills = () => {
                     </div>
                 ))}
             </div>
-
         </section>
     )
 }
-
 export default Skills;

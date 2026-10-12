@@ -1,24 +1,18 @@
 import { useState } from "react";
 import { Projects } from "../../constants.js";
-
 const Project = () => {
-
     const [selectedProject, setSelectedProject] = useState(null);
-
     const handleOpenModal = (project) => {
         //create a modal to show project details
         setSelectedProject(project);
     }
-
     const handleCloseModal = () => {
         setSelectedProject(null);
     }
-
     return (
         <section
             id="project"
             className="py-24 pb-24 px-[12vw] md:px-[17vw] lg:px-[10vw] font-sans relative" >
-
             {/* Section  Title*/}
             <div className="text-center mb-12 ">
                 <h2 className="text-4xl font-bold text-white">Projects</h2>
@@ -27,8 +21,6 @@ const Project = () => {
                     A showcase of the projects I have worked on, highlighting my skills in various technologies
                 </p>
             </div>
-
-
             {/* Project Grid */}
             <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {Projects.map((project) => (
@@ -56,7 +48,6 @@ const Project = () => {
                     </div>
                 ))}
             </div>
-
             {/* Modal Container */}
             {selectedProject && (
                 <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
@@ -68,7 +59,6 @@ const Project = () => {
                             >
                                 &times;
                             </button>
-                            
                         </div>
                         <div className="flex flex-col">
                             <div className="w-medium flex justify-center bg-gray-900 px-4">
@@ -103,13 +93,9 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             )}
-
-
         </section>
     )
 }
-
 export default Project;

@@ -1,23 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false); // Mobile menu icons FIX and FI Menu
     const [activeSection, setActiveSection] = useState(""); // Active section state
     const [isScrolled, setIsScrolled] = useState(false); // Scroll state
-
-
     // Detect scroll and change navbar background
     useEffect(() => {
         const handleScroll = () => {
             setIsScrolled(window.scrollY > 50);
         };
-
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
-
     //Smooth scroll function
     const handleMenuItemClick = (sectionId) => {
         setActiveSection(sectionId);
@@ -28,7 +23,6 @@ const Navbar = () => {
             section.scrollIntoView({behavior: "smooth"});
         }
     }
-
     const menuItems = [
         { id: "about", label: "About" },
         { id: "skills", label: "Skills" },
@@ -37,11 +31,9 @@ const Navbar = () => {
         { id: "education", label: "Education" },
         { id: "contact", label: "Contact" },
     ];
-
     return (
         <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw]  md:px-[7vw] lg:px-[16vw] 
         ${isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"}`}>
-
             <div className="text-white py-5 flex justify-between items-center">
                 {/* logo */}
                 <div className="text-lg font-semibold cursor-pointer">
@@ -51,7 +43,6 @@ const Navbar = () => {
                     <span className="text-white">Solanki</span>
                     <span className="text-[#8245ec]">&gt;</span>
                 </div>
-
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex space-x-8 text-gray-300">
                     {menuItems.map((item) => (
@@ -62,8 +53,6 @@ const Navbar = () => {
                         </li>
                     ))}
                 </ul>
-
-
                 {/* Social Media Icons */}
                 <div className="hidden md:flex space-x-4">
                     <a href="https://github.com/Prasadsing25"
@@ -79,7 +68,6 @@ const Navbar = () => {
                         <FaLinkedin size={24} />
                     </a>
                 </div>
-
                 {/* Mobile Menu Icons */}
                 <div className="md:hidden">
                     {
@@ -93,7 +81,6 @@ const Navbar = () => {
                     }
                 </div>
             </div>
-
             {/* Mobile Menu Items */}
             {isOpen && (
                 <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414] bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg md:hidden">
@@ -125,5 +112,4 @@ const Navbar = () => {
         </nav>
     )
 }
-
 export default Navbar;

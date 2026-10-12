@@ -2,15 +2,11 @@ import { useRef, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser";
-
 const Contact = () => {
-
     const form = useRef();
     const [isSent, setIsSent] = useState(false);
-
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm(
             "service_dvdjpqt", //EmailJs service ID
             "template_0o81fw9", //EmailJs template ID
@@ -45,14 +41,11 @@ const Contact = () => {
                 }
             );
     }
-
-
     return (
         <section
             id="contact"
             className="flex flex-col items-center justify-center py-24 px-[12vw] md:px-[17vw] lg:px-[20vw]">
             <ToastContainer />
-
             {/* Section title */}
             <div className="text-center mb-16">
                 <h2 className="text-4xl font-bold text-white">
@@ -63,7 +56,6 @@ const Contact = () => {
                     I'd love to hear from you-reach out for any opportunities or questions!
                 </p>
             </div>
-
             {/* Contact Form */}
             <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700">
                 <h3 className="text-xl font-semibold text-white text-center">Connect with me <span className="ml-1">🚀</span></h3>
@@ -78,7 +70,6 @@ const Contact = () => {
                     <textarea name="message" placeholder="message" rows={4}
                         className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500">
                     </textarea>
-
                     {/* Send Button */}
                     <button
                         type="submit"
@@ -87,9 +78,7 @@ const Contact = () => {
                     </button>
                 </form>
             </div>
-
         </section>
     )
 }
-
 export default Contact;

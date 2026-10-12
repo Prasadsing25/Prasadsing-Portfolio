@@ -2,7 +2,6 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from 'react-parallax-tilt';
 import Profile2 from "../../assets/profile.jpg";
-
 const About = () => {
     return (
         <section id="about" className="py-4 px-[7vw] md:px-[7vw] lg:px-[15vw] font-sans mt-25 md:mt-16 lg:mt-20">
@@ -30,12 +29,10 @@ const About = () => {
                             cursorRenderer={(cursor) =>
                                 <span className="text-[#8245ec]">{cursor}</span>} />
                     </h3>
-
                     {/* About me Para */}
                     <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-5 mt-5 leading-relaxed">
                         I am a passionate and dedicated full-stack developer with expertise in the MERN stack.I enjoy tackling complex problems and turning ideas into reality through code. My goal is to continuously learn and grow as a developer while contributing to innovative projects.
                     </p>
-
                     {/* Resume btn */}
                     <a
                         href="https://drive.google.com/file/d/1S9M2PA1wB4jUsGtifw7n4iiOGff7pAaU/view?usp=drive_link"
@@ -50,11 +47,8 @@ const About = () => {
                         DOWNLOAD CV
                     </a>
                 </div>
-
-
                 {/* Right Side */}
                 <div className="md:w-1/2 flex justify-center md:justify-end ">
-
                     {/* For small screens → plain image */}
                     <div className="block lg:hidden w-48 h-48 sm:w-64 sm:h-64 border-4 border-purple-700 rounded-full">
                         <img
@@ -63,7 +57,6 @@ const About = () => {
                             className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
                         />
                     </div>
-
                     {/* For large screens → Tilt effect */}
                     <Tilt className="hidden lg:block w-48 h-48 sm:w-64 sm:h-64 md:w-[25rem] md:h-[25rem] border-4 border-purple-700 rounded-full"
                         tiltMaxAngleX={10}
@@ -83,5 +76,4 @@ const About = () => {
         </section>
     );
 }
-
 export default About;

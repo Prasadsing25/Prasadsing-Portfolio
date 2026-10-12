@@ -6,13 +6,9 @@ import Project from "./components/Projects/Projects.jsx";
 import Education from "./components/Education/Education.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
-
 import BlurBlob from "./BlurBlob.jsx";
-
 const App = () => {
-
   return (
-    
     <div className="bg-[#050414]">
       <BlurBlob position={{top: '35%', left: '20%'}} size={{width: '30%', height: '40%'}} />
       <div className="absolute inset-0 
@@ -33,5 +29,4 @@ const App = () => {
     </div>
   )
 }
-
 export default App;
