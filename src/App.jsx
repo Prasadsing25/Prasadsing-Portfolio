@@ -9,7 +9,8 @@ import Footer from "./components/Footer/Footer.jsx";
 import BlurBlob from "./BlurBlob.jsx";
 const App = () => {
   return (
-    <div className="bg-[#050414]">
+    <div className="bg-[#050414]">  
+    {/* //making change in this color - #0A0A0A */}
       <BlurBlob position={{top: '35%', left: '20%'}} size={{width: '30%', height: '40%'}} />
       <div className="absolute inset-0 
                       bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),
