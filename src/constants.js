@@ -1,25 +1,25 @@
 //Skills Section logo's
-import htmlLogo from "./assets/tech_logo/html.png";
-import cssLogo from "./assets/tech_logo/css.png";
-import javascriptLogo from "./assets/tech_logo/javascript.png";
-import reactLogo from "./assets/tech_logo/reactjs.png";
-import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
-import materialuiLogo from "./assets/tech_logo/materialui.png";
-import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
-import nodejsLogo from "./assets/tech_logo/nodejs.png";
-import expressLogo from "./assets/tech_logo/express.png";
-import mysqlLogo from "./assets/tech_logo/mysql.png";
-import mongodbLogo from "./assets/tech_logo/mongodb.png";
-import pythonLogo from "./assets/tech_logo/python.png";
-import javaLogo from "./assets/tech_logo/java.png";
-import gitLogo from "./assets/tech_logo/git.png";
-import githubLogo from "./assets/tech_logo/github.png";
-import vscodeLogo from "./assets/tech_logo/vscode.png";
-import postmanLogo from "./assets/tech_logo/postman.png";
-import netlifyLogo from "./assets/tech_logo/netlify.png";
-import linuxLogo from "./assets/tech_logo/linux.png"
-import jsonLogo from "./assets/tech_logo/json.png";
-import vercelLogo from "./assets/tech_logo/vercel.png";
+import htmlLogo from "./assets/tech_logo/html.avif";
+import cssLogo from "./assets/tech_logo/css.avif";
+import javascriptLogo from "./assets/tech_logo/javascript.avif";
+import reactLogo from "./assets/tech_logo/reactjs.avif";
+import tailwindcssLogo from "./assets/tech_logo/tailwindcss.avif";
+import materialuiLogo from "./assets/tech_logo/materialui.avif";
+import bootstrapLogo from "./assets/tech_logo/bootstrap.avif";
+import nodejsLogo from "./assets/tech_logo/nodejs.avif";
+import expressLogo from "./assets/tech_logo/express.avif";
+import mysqlLogo from "./assets/tech_logo/mysql.avif";
+import mongodbLogo from "./assets/tech_logo/mongodb.avif";
+import pythonLogo from "./assets/tech_logo/python.avif";
+import javaLogo from "./assets/tech_logo/java.avif";
+import gitLogo from "./assets/tech_logo/git.avif";
+import githubLogo from "./assets/tech_logo/github.avif";
+import vscodeLogo from "./assets/tech_logo/vscode.avif";
+import postmanLogo from "./assets/tech_logo/postman.avif";
+import netlifyLogo from "./assets/tech_logo/netlify.avif";
+import linuxLogo from "./assets/tech_logo/linux.webp";
+import jsonLogo from "./assets/tech_logo/json.avif";
+import vercelLogo from "./assets/tech_logo/vercel.avif";
 export const SkillsInfo = [
     {
         title: 'Frontend',
@@ -68,11 +68,11 @@ export const SkillsInfo = [
 
 
 //Certificate Section Logo's
-import nptelLogo from "./assets/cert_logo/nptel.png";
-import sololearnLogo from "./assets/cert_logo/sololearn.png";
-import udemyLogo from "./assets/cert_logo/udemy.png";
-import ybiLogo from "./assets/cert_logo/ybi.png";
-import hackerrank from "./assets/cert_logo/hackerrank.png";
+import nptelLogo from "./assets/cert_logo/nptel.avif";
+import sololearnLogo from "./assets/cert_logo/sololearn.avif";
+import udemyLogo from "./assets/cert_logo/udemy.avif";
+import ybiLogo from "./assets/cert_logo/ybi.avif";
+import hackerrank from "./assets/cert_logo/hackerrank.avif";
 export const Certificates = [
     {
         id: 0,
@@ -157,9 +157,9 @@ export const Certificates = [
 
 
 //Education Section Logo's
-import sscLogo from "./assets/education_logo/ssc.png";
-import hscLogo from "./assets/education_logo/hsc.png";
-import sandipLogo from "./assets/education_logo/sandip.jpg";
+import sscLogo from "./assets/education_logo/ssc.webp";
+import hscLogo from "./assets/education_logo/hsc.webp";
+import sandipLogo from "./assets/education_logo/sandip.webp";
 export const education = [
     {
         id: 0,
@@ -193,12 +193,12 @@ export const education = [
 
 
 //Projects Section Logo's
-import wanderlustLogo from "./assets/work_logo/Wanderlust.png";
-import tradeflowLogo from "./assets/work_logo/tradeflowLogo.png";
-import myportfolioLogo from "./assets/work_logo/myportfolio.jpg";
-import weatherappLogo from "./assets/work_logo/WeatherApp.png";
-import TaskReminder from "./assets/work_logo/TaskReminder.png";
-import taskManagerLogo from "./assets/work_logo/TaskManager.jpg";
+import wanderlustLogo from "./assets/work_logo/Wanderlust.avif";
+import tradeflowLogo from "./assets/work_logo/tradeflowLogo.avif";
+import myportfolioLogo from "./assets/work_logo/myportfolio.avif";
+import weatherappLogo from "./assets/work_logo/WeatherApp.avif";
+import TaskReminder from "./assets/work_logo/TaskReminder.avif";
+import taskManagerLogo from "./assets/work_logo/TaskManager.avif";
 export const Projects = [
     {
         id: 0,

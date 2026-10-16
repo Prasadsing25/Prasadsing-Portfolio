@@ -1,7 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from 'react-parallax-tilt';
-import Profile2 from "../../assets/profile.jpg";
+import Profile3 from "../../assets/profile3.webp";
 const About = () => {
     return (
         <section id="about" className="py-4 px-[7vw] md:px-[7vw] lg:px-[15vw] font-sans mt-25 md:mt-16 lg:mt-20">
@@ -52,7 +52,7 @@ const About = () => {
                     {/* For small screens → plain image */}
                     <div className="block lg:hidden w-48 h-48 sm:w-64 sm:h-64 border-4 border-purple-700 rounded-full">
                         <img
-                            src={Profile2}
+                            src={Profile3}
                             alt="Prasadsing Solanki"
                             className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
                         />
@@ -66,7 +66,7 @@ const About = () => {
                         transitionSpeed={1000}
                         gyroscope={true}>
                         <img
-                            src={Profile2}
+                            src={Profile3}
                             alt="Prasadsing Solanki"
                             className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]" />
                     </Tilt>
