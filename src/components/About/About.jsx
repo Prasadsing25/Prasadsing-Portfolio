@@ -18,7 +18,7 @@ const About = () => {
                     {/* Skills heading with typing effect */}
                     <h3 className="text-3xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight md:whitespace-nowrap">
                         <span className="text-white">
-                            I am a
+                            
                         </span> &nbsp;
                         <Typewriter
                             words={["FullStack Developer", "AWS Certified Cloud Practitioner", "Linux Administrator", "SDE", "Software Engineer"]}
